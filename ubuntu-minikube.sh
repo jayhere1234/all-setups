@@ -1,6 +1,6 @@
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install curl wget apt-transport-https -y
+sudo yum update -y
+sudo yum upgrade -y
+sudo yum install curl wget yum-transport-https -y
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
